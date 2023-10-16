@@ -260,7 +260,7 @@ def cloning_two():
     print(f" {W}[B] Back {W}")
     clon_ = input(" [?] Sellect : ")
     if clon_ == "1":
-        pas = ["first last",'firstlast','first123','first@123','first@1234','first@12345','first1234','first','first12345','firstlast12345','firstlast1234','firstlast12345','firstlast@12345','firstlast@1234','firstlast@123','first786','first12','firstfirst','first']
+        pas = ["first last",'firstlast','first123','first@123','first@1234','first@12345','first1234','first','first12345','firstlast12345','firstlast1234','firstlast12345','firstlast@12345','firstlast@1234','firstlast@123','first786','first12','firstfirst']
         for px in pas:
             pp.append(px)
         pass
